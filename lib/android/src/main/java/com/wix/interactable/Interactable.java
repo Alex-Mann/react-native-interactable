@@ -16,7 +16,7 @@ public class Interactable implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // Removed in RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
